@@ -1,0 +1,120 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>History</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap-4.3.1.css" rel="stylesheet" type="text/css">
+</head>
+
+<body style="padding-top: 70px">
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+    <ul class="navbar-nav mr-auto">
+		<li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="line.html">Line Up</a></li>
+		<li class="nav-item"><a class="nav-link" href="tickets.html">Tickets</a></li>
+		<li class="nav-item"><a class="nav-link" href="info.html">Info</a></li>
+      <li class="nav-item dropdown active"> 
+		  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Gallery </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown1"> 
+			<a class="dropdown-item" href="photos.html">Pictures</a>
+			<a class="dropdown-item" href="videos.html">Videos</a>
+			<a class="dropdown-item" href="history.html">History</a>
+          </div>
+      </li>
+	  <li class="nav-item"><a class="nav-link" href="map.html">Map</a></li>
+	  <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+    </ul>
+  </div>
+</nav>
+	
+<header>
+	<div class="label"><img class="tag" src="images/label.png" alt="tag" width="20%"></div>
+	<h2 class="title">Days Till The Festival</h2>
+	<p id="demo"></p>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Aug 30, 2019 12:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get todays date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+</header>
+	
+<div class="history">
+	<h1>History</h1>
+	<div class="five">
+		<h4>Electric Picnic 2005</h4>
+        <aside class="five1"><img src="images/2005.jpg" alt="2005" width="100%"></aside>
+        <section class="five2">
+          <p>Electric Picnic returned to become a weekend event with camping from 3rd – 5th September. A first at this year’s picnic was the recording of a documentary, directed by Nick Ryan, which aired in July 2006, showing “Electric Picnic: The Documentary” which followed performances and included interviews with musicians and comedians.</p><p>The ticket holders this year were smitten with the line-up at the festival of ’05. Fatboy Slim wowed the audience with their incredible lighting display , the legendary  Kraftwerk mesmerised picnickers with their performance which culminated in  a robotic encore. Other artists such as Goldfrapp, Public Enemy, De La Soul and The Human League proved favourites . EP 2005 will always and forever be remembered for the performance given by Arcade Fire which came just before they became mega  successful. So good they came back a few years later</p><p>Comedy at the festival included laugh out loud shows from Tommy Tiernan and Des Bishop, keeping it amusing throughout the weekend.</p><p>“The 2005 incarnation of Electric Picnic boasted a very solid line-up, with the likes of Fatboy Slim, The Flaming Lips, Kraftwerk and LCD Soundsystem all on hand to play the Stradbally festival but it was Arcade Fire which will perhaps be remembered as having the single most memorable performance in the long history of the festival.” <b>Entertainment.ie</b></p><p>“Simply put it was the best festival I've ever been to”. <b>Cluas</b></p>
+        </section>
+	</div>
+	
+	<div class="seven">
+	<h4>Electric Picnic 2007</h4>
+    <aside class="seven1"><img src="images/2007.gif" alt="2007" width="100%"></aside>
+    <section class="seven2">
+      <p>Electric Picnic returned for its fourth year on the 31st of August 2007 with an attendance of 32,500.</p><p>Musically, the fourth year of the festival was always going to be a big one with artists such as Hot Chip and Bjork, with one of the most anticipated acts Modest Mouse taking over Friday night’s entertainment, getting the weekend off to a great start for all the revellers.</p><p>Saturday being one of the busiest days for the ticket-holders; it left people with difficult choices of whom to see as there was numerous big acts of 2007 playing. M.I.A was most definitely a highlight, with Ratatat and the Chemical Brothers close to follow.</p><p>Sunday being the day where most people are a little wrecked, the Body and Soul area is perfect for a chill out spot to warm everyone back in to the festival spirit. Sonic Youth stood out as a spectacular act as well as Iggy and the Stooges. The highlight of the weekend though had to be Primal Scream as they put on an incredible live show and over 28,000 picnickers partied hard to their set!</p>
+    </section>
+	</div>
+	
+	<div class="nine">
+    <h4>Electric Picnic 2009</h4>
+    <aside class="nine1"><img src="images/2009.jpg" alt="2009" width="100%"></aside>
+    <section class="nine2">
+      <p>Electric Picnic number six took place on the 4th of September 2009</p><p>It was the 4th September when this three day event took place in Stradbally and Electric Picnic continued with to hold on to the dreamlike festival spirit which draws in thousands of people every year by giving plenty of music, arts and entertainment to the near 32,500 attendees.</p><p>The line-up for 2009 was one of the best yet with The Temper Trap kicking it off on the Friday and other great shows from MGMT, Fake Blood and Seasick Steve. One of the must see artists of the weekend were The XX proving that their minimalist sound can come across live at a festival in a flawless translation. Saturday night’s music got everyone up dancing to Madness and 2 Many DJs which gave a great atmosphere all throughout the event. The last day of Electric Picnic brought the exact array of artists to ease the audience back into party mode with Florence and the Machine, Bell X1 and Damien Dempsey.</p><p>Electric Picnic proved to come out strong as Ireland’s number one festival in 2009 keeping the thousands of picnickers in Stradbally more than happy!</p><p>“As the sun sets in Stradbally after a hectic weekend for all, Electric Picnic has once again proven itself as the top Irish festival on the circuit.” <b>Golden Plec</b></p><p>“Another superb year for Electric Picnic, despite the weather, and let us hope that organisers keep with the boutique, quirky nature of this festival for as long as possible.” <b>Limerick Leader.</b></p>
+    </section>
+	</div>
+	
+	<div class="twelve">
+	<h4>Electric Picnic 2012</h4>
+    <aside class="twelve1"><img src="images/2012.jpg" alt="2012" width="100%"></aside>
+    <section class="twelve2">
+      <p>Electric Picnic 2012 had a successful year in Stradbally with an excellent line-up and a weekend of sunshine!</p><p>With a few changes this year, Electric Picnic welcomed the Trailer Park stage and the Algorythm stage in the forest to add something new and fresh to the festival. The line-up this year brought a good variety of artists with The xx, Sigur Ros and Azealia Banks taking over Friday nights entertainment. Saturday’s popular acts included SBTRKT, Le Galaxie, Hudson Mohawke and The Cure which were sure to please the masses of crowds. That leaves us with Of Monsters and Men, and Bat for Lashes as ace performances for the Sunday of the festival, and to bring an end to this magical weekend on the main stage was of course the legendary band that is The Killers.</p><p>The dry conditions were certainly welcomed by the ticket-holders all around the arena and also by those that were spending their time relaxing at the Trailer Park stage and the Theatre of Food, enjoying food from Michelin starred chefs Ross Lewis, Paul Flynn and Derry Clarke.</p><p>The comedy stage was roaring including the country’s favourites Dead Cat Bounce, Patrick Kielty and Pete Johannson. This stage was a hit at the festival along with the Arcadia area, Foesset’s Circus, the Body & Soul area and the Eco Picnic.  </p>
+    </section>
+	</div>
+	
+	<div class="sixteen">
+	<h4>Electric Picnic 2016</h4>
+    <aside class="sixteen1"><img src="images/2016.jpg" alt="2016" width="100%"></aside>
+    <section class="sixteen2">
+      <p>Electric Picnic 2016 saw 55,000 Picnickers descend upon the idyllic setting of Stradbally Hall for a sold-out weekend of incredible music, captivating entertainment, unique experiences and unforgettable memories. </p><p>Friday night saw festival favourites The Chemical Brothers take to the stage for a stunning headline performance filled with mind-blowing visuals and hits such as 'Hey Boy Hey Girl' and 'Block Rockin' Beats'. Picnic veterans LCD Soundsystem made a much welcome return to the festival on Saturday night with a high-energy show packed with classics from their critically acclaimed back catalogue. Noel Gallgher's High Flying Birds were one of the most highly anticipated performances of the weekend, and they did not disappoint. The band delivered an outstanding 75 minute set and Noel even treated us to some Oasis tracks.</p><p>The Main Stage was brought to a close on Sunday night by Lana Del Rey and New Order. Lana's haunting vocals mesmerised the masses with her dreamy pop anthems, while New Order brought us back in time with songs such as 'Blue Monday' and 'Bizzare Love Triangle'. </p><p>There was an eclectic mix of acts across the festival throughout the weekend including disco-don Todd Terje, indie heroes The Shins, grime kingpin Skepta, techno legend Adam Beyer and synth-pop stars Years & Years.</p><p>The Comedy Stage played host to the biggest comedy line up the festival has seen to date with Dylan Moran, David O'Doherty, Rubberbandits and Reginald D Hunter headlining the stage. The line up also featured a host of hot Irish talent including Aisling Bea, Deirdre O'Kane, Eric Lalor and Joe Rooney.</p><p>There were also some new additions to the festival in 2016 with the introduction of swimming in the beautiful setting of Stradbally lake. The Hazel Wood brought a world of art and performance to the woods through interactive theatre, shadow puppetry, visual displays, captivating art and much more. Over the weekend, All City Records, District 8 and Sunday Times! curated the line up for Anachronica: a new immersive experience which replicated an abandoned city in the woods.</p><p>Picnickers also enjoyed the mystical beauty of Body&Soul, the mobiletropolis that is Trailer Park, the reggage vibes of Trenchtown, thought provoking conversations in Mindfield and music delights from Other Voices, Salty Dog and the Jerry Fish Electric Sideshow.</p><p>See you all in September 2017 for the 14th edition of Electric Picnic that is sure to be filled with even more memorable moments.</p>
+    </section>
+  </div>
+</div>	
+	
+<footer>Krzysztof Lancucki Copyright 2019</footer>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap-4.3.1.js"></script>
+</body>
+</html>

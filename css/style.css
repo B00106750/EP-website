@@ -1,0 +1,440 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    margin: 0px;
+    padding: 0px;
+    background-attachment: fixed;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+}
+
+header {
+    text-align: center;
+    background-color: #FFFFFF;
+    padding-bottom: 20px;
+	margin-top: -20px;
+}
+footer {
+    text-align: center;
+    clear: both;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 25px;
+    width: 100%;
+    color: white;
+    padding: 0.01em 16px;
+    font-family: Verdana,sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.poster {
+	width: 100%;
+}
+
+.map {
+	width: 100%;
+}
+
+.info {
+    margin: auto;
+    text-align: left;
+    width: 70%;
+    padding: 20px;
+    color: white;
+    background-color: #1A1F35;
+    border-color: #F07E1F;
+    border-style: solid;
+}
+
+.info img {
+	width: 100%;
+}
+
+.info h1 {
+	color: white;
+	font-weight: bold;
+	font-family: Sacramento;
+}
+
+.info h2 {
+	font-weight: bold;
+}
+
+.info a {
+	text-decoration: none;
+	color: #F07E1B;
+}
+
+.ticket {
+	margin: auto;
+    text-align: left;
+    width: 70%;
+    padding: 20px;
+    color: white;
+    background-color: #1A1F35;
+    border-color: #F07E1F;
+    border-style: solid;
+}
+
+.ticket h2 {
+	background-color: #F07E1F;
+	text-align: center;
+	width: 100%;
+}
+
+.ticket h2 a {
+	color: white;
+	text-decoration: none;
+}
+
+.ticket h2:hover {
+	background-color: #4152B4;
+	
+}.navbar.fixed-top.navbar-expand-lg.navbar-light.bg-light {
+    background-image: url(../images/purple.jpg);
+}
+.tag {
+	margin-top: -18px;
+}
+
+.label {
+	width: 100%;
+	text-align: center;
+}
+
+#demo {
+	float: right;
+	margin-top: -90px;
+	padding-right: 60px;
+	font-family: Sacramento;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.title {
+	float: left;
+	margin-top: -90px;
+	padding-left: 60px;
+	font-family: Sacramento;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.main {
+	margin: auto;
+    text-align: center;
+    width: 70%;
+    padding: 20px;
+    color: white;
+    background-color: #1A1F35;
+    border-color: #F07E1F;
+    border-style: solid;
+}
+
+.main h1 {
+	text-align: left;
+}
+
+.main img {
+	padding: 10px;
+}
+
+.main img:hover {
+	border: solid;
+	-o-transform: scale(1.5);
+	-ms-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+}
+
+.main1 {
+	margin: auto;
+    width: 70%;
+    padding: 20px;
+    color: white;
+    background-color: #1A1F35;
+    border-color: #F07E1F;
+    border-style: solid;
+}
+
+.main1 iframe {
+	border: solid;
+}
+
+.history {
+	margin: auto;
+    width: 70%;
+    padding: 20px;
+    color: white;
+    background-color: #1A1F35;
+    border-color: #F07E1F;
+    border-style: solid;
+	padding-bottom: 550px;
+}
+
+h4 {
+	color: #F07E1F;
+}
+
+.five {
+	padding-bottom: 50px;
+}
+
+.seven {
+	padding-bottom: 540px;
+}
+
+.nine {
+	padding-bottom: 60px;
+}
+
+.twelve {
+	padding-bottom: 780px;
+}
+.five1 {
+    width: 40%;
+    float: right;
+}
+
+.five2 {
+    width: 50%;
+}
+
+.seven1 {
+    width: 40%;
+    float: left;
+}
+
+.seven2 {
+    width: 40%;
+	float: right;
+}
+
+.nine1 {
+    width: 40%;
+    float: right;
+}
+
+.nine2 {
+    width: 50%;
+}
+
+.twelve1 {
+    width: 40%;
+    float: left;
+}
+
+.twelve2 {
+    width: 40%;
+	float: right;
+}
+
+.sixteen1 {
+    width: 40%;
+    float: right;
+}
+
+.sixteen2 {
+    width: 50%;
+}
+
+.form {
+	margin: auto;
+    width: 70%;
+    padding: 20px;
+    color: white;
+    background-color: #1A1F35;
+    border-color: #F07E1F;
+    border-style: solid;
+}
+
+.form a {
+	color: #F07E1F;
+}
+
+.form a:hover {
+	text-decoration: none;
+	color: lightblue;
+}
+
+.form b {
+	color: #F07E1F;
+}
+
+@media (max-width: 992px) {
+	#demo {
+	float: none;
+	font-family: Sacramento;
+	font-weight: bold;
+	margin: auto;
+}
+
+.title {
+	float: none;
+	font-family: Sacramento;
+	font-weight: bold;
+	margin: auto;
+}
+
+	.tag {
+	margin-top: 0px;
+}
+	
+	.form {
+	margin: auto;
+    width: 100%;
+    padding: 20px;
+    color: white;
+    background-color: #1A1F35;
+    border-color: #F07E1F;
+    border-style: solid;
+}
+
+.form a {
+	color: #F07E1F;
+}
+
+.form a:hover {
+	text-decoration: none;
+	color: lightblue;
+}
+
+.form b {
+	color: #F07E1F;
+}
+}
+
+@media (max-width: 768px) {
+	.info {
+    margin: auto;
+    text-align: left;
+    width: 100%;
+    padding: 20px;
+    color: white;
+    background-color: #1A1F35;
+    border-color: #F07E1F;
+    border-style: solid;
+}
+	
+	.ticket {
+	margin: auto;
+    text-align: left;
+    width: 100%;
+    padding: 20px;
+    color: white;
+    background-color: #1A1F35;
+    border-color: #F07E1F;
+    border-style: solid;
+	}
+	
+	.main1 {
+	margin: auto;
+    width: 100%;
+    padding: 20px;
+    color: white;
+    background-color: #1A1F35;
+    border-color: #F07E1F;
+    border-style: solid;
+}
+
+.main1 iframe {
+	border: solid;
+}
+	
+	.history {
+	margin: auto;
+    width: 100%;
+    padding: 20px;
+    color: white;
+    background-color: #1A1F35;
+    border-color: #F07E1F;
+    border-style: solid;
+}
+
+.five {
+	padding-bottom: 50px;
+}
+
+.seven {
+	padding-bottom: 540px;
+}
+
+.nine {
+	padding-bottom: 60px;
+}
+
+.twelve {
+	padding-bottom: 780px;
+}
+.five1 {
+    width: 100%;
+}
+
+.five2 {
+    width: 100%;
+}
+
+.seven1 {
+    width: 100%;;
+}
+
+.seven2 {
+    width: 100%;
+}
+
+.nine1 {
+    width: 100%;
+}
+
+.nine2 {
+    width: 100%;
+}
+
+.twelve1 {
+    width: 100%;
+}
+
+.twelve2 {
+    width: 100%;
+}
+
+.sixteen1 {
+    width: 100%;
+}
+
+.sixteen2 {
+    width: 100%;
+}
+
+}
+
+@media (max-width: 576px){
+	.main {
+	margin: auto;
+    text-align: center;
+    width: 100%;
+    padding: 20px;
+    color: white;
+    background-color: #1A1F35;
+    border-color: #F07E1F;
+    border-style: solid;
+}
+
+.main h1 {
+	text-align: center;
+}
+
+.main img {
+	padding: 10px;
+	width: 100%;
+}
+	
+
+}
